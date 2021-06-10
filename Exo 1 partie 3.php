@@ -14,11 +14,11 @@
         - l'afficher
         - l'incrementer
     </p>
+    <ul>
     <?php
-    for ($i = 0; $i <= 10; $i++){
-        echo $i;
-    }
-    ?>
-    </p>
+    for ($i = 0; $i <= 10;$i++){?><li> 
+        <?=$i; ?> </li>
+        <?php } ?>
+    </ul>
 </body>
 </html>
